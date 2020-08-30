@@ -1,0 +1,13 @@
+{
+    "name": "login/objektinis",
+    "description": "Ojektinio prisijungimo pavyzdys",
+    "autoload": {
+        "psr-4": {
+            "Main\\": "app",
+            "App\\DB\\": "app/db"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^4.0"
+    }
+}
